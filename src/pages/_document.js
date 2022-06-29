@@ -1,6 +1,7 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
+// const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet()
@@ -31,7 +32,9 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en-GB'>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          {/*<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>*/}
+          {/*<link rel="shortcut icon" href={prefix+'/favicon.ico'}> </link>*/}
+          <title>Portfolio</title>
         </Head>
         <body>
           <Main />
