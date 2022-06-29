@@ -4,9 +4,9 @@ import {
     BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Hrx, Tag, TagList, TitleContent, UtilityList, Img
 } from './ProjectsStyles';
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
-import {cyberProjects} from '../../constants/constants';
+// import {cyberProjects} from '../../constants/constants';
 import {webProjects} from '../../constants/constants';
-import {web3Projects} from '../../constants/constants';
+// import {web3Projects} from '../../constants/constants';
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
