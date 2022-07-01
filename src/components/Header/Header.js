@@ -40,7 +40,7 @@ const Header = () => (
         </Div2>
         <Div3>
             <SocialContainer>
-                <SocialIcons href="/images/Resume.pdf">
+                <SocialIcons href="https://github.com/kabir0x23/Portfolio/blob/gh-pages/images/Resume.pdf">
                     Resume
                 </SocialIcons>
                 <SocialIcons href="https://Twitter.com/kabir0x23">
