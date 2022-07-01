@@ -16,7 +16,7 @@ const Header = () => (
     <Container>
         <Div1>
             <Link href={"/"}>
-                <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom:'100'}}>
+                <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '100'}}>
                     <DiCssdeck size={"3rem"}/> <Span>Portfolio</Span>
                 </a>
             </Link>
@@ -39,19 +39,22 @@ const Header = () => (
             </li>
         </Div2>
         <Div3>
-                <SocialContainer>
-                    <SocialIcons href="https://Twitter.com/kabir0x23">
-                        <AiFillTwitterCircle size="3rem"/>
-                    </SocialIcons>
+            <SocialContainer>
+                <SocialIcons href="/images/Resume.pdf">
+                    Resume
+                </SocialIcons>
+                <SocialIcons href="https://Twitter.com/kabir0x23">
+                    <AiFillTwitterCircle size="3rem"/>
+                </SocialIcons>
 
-                    <SocialIcons href="https://github.com/kabir0x23">
-                        <AiFillGithub size="3rem"/>
-                    </SocialIcons>
+                <SocialIcons href="https://github.com/kabir0x23">
+                    <AiFillGithub size="3rem"/>
+                </SocialIcons>
 
-                    <SocialIcons href="https://www.linkedin.com/in/kabir0x23/">
-                        <AiFillLinkedin size="3rem"/>
-                    </SocialIcons>
-                </SocialContainer>
+                <SocialIcons href="https://www.linkedin.com/in/kabir0x23/">
+                    <AiFillLinkedin size="3rem"/>
+                </SocialIcons>
+            </SocialContainer>
         </Div3>
     </Container>
 );
