@@ -40,14 +40,27 @@ export const TitleContent = styled.div`
   z-index: 20;
   width: 100%;
 `;
+export const StackContent = styled.div`
+  color: #ababab;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  width: 100%;
+`;
 
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 1.2px;
-  color: #9cc9e3;
+  color: #488bcd;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  &:hover {
+    transition: all 0.2s ease-in;
+    background: transparent;
+    color: #ff8100;
+    border-color: #343434;
+    font-size: 33px;
+  }
 `;
 
 export const Hr = styled.hr`
@@ -55,7 +68,7 @@ export const Hr = styled.hr`
   height: 1.5px;
   margin: 10px auto;
   border: 0;
-  background: #488bcd;
+  background: #343434;
 `;
 
 export const Hrx = styled.hr`
@@ -80,14 +93,11 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  //padding: 0 25px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: .3rem
-
   }
 `;
 
@@ -101,26 +111,54 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-  color: #d4c0c0;
-  font-size: 1.6rem;
+  color: #c9c9c9;
   padding: 1rem 1.5rem;
-  background: #ab6112;
+  background: transparent;
   border-radius: 5px;
-  transition: 0.5s;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #343434;
+  white-space: nowrap;
+  font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
-    background: #801414;
-
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+    color: #ff8100;
+    border-color: #343434;
+    font-size: 18px;
   }
 `;
 
 export const TagList = styled.ul`
-  display: flex;
+  width: 75%;
+  margin: 10px 50px 0 50px;
+
+  color: #d4c0c0;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border-radius: 5px;
   justify-content: space-around;
-  padding: 2rem;
-  
+
+  border-width: 1px;
+  border-style: solid;
+  //border-color: #343434;
+  border-color: #d76e00;
+  white-space: nowrap;
+  font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+  outline: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
 `
 export const Tag = styled.li`
-  color: #a4a4a4;
+  color: #d0d0d0;
   font-size: 1.5rem;
 `

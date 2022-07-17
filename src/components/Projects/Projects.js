@@ -1,7 +1,19 @@
 import React from 'react';
 
 import {
-    BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Hrx, Tag, TagList, TitleContent, UtilityList, Img
+    BlogCard,
+    CardInfo,
+    ExternalLinks,
+    GridContainer,
+    HeaderThree,
+    Hr,
+    Hrx,
+    Tag,
+    TagList,
+    TitleContent,
+    UtilityList,
+    Img,
+    StackContent
 } from './ProjectsStyles';
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
 import {cyberProjects} from '../../constants/constants';
@@ -23,17 +35,17 @@ const Projects = () => (
                     </TitleContent>
                     <CardInfo>{description}</CardInfo>
                     <div>
-                            <Hr/>
 
-                            {/*<TitleContent>Stack</TitleContent>*/}
+                        {/*<StackContent>Tech Stack</StackContent>*/}
                         <TagList> {tags.map((tag, i) => (
                             <Tag key={i}>{tag}</Tag>))}
                         </TagList>
+                            <Hr/>
                     </div>
-                    {/*<UtilityList>*/}
-                    {/*    <ExternalLinks href={visit}>Live</ExternalLinks>*/}
-                    {/*    <ExternalLinks href={source}>Source Code</ExternalLinks>*/}
-                    {/*</UtilityList>*/}
+                    <UtilityList>
+                        <ExternalLinks href={visit}>Live</ExternalLinks>
+                        <ExternalLinks href={source}>Source Code</ExternalLinks>
+                    </UtilityList>
                 </BlogCard>
             ))}
         </GridContainer>
@@ -80,16 +92,17 @@ const Projects = () => (
                     </TitleContent>
                     <CardInfo>{description}</CardInfo>
                     <div>
-                            <Hr/>
 
-                            {/*<TitleContent>Stack</TitleContent>*/}
+                        {/*<TitleContent>Stack</TitleContent>*/}
                         <TagList> {tags.map((tag, i) => (
                             <Tag key={i}>{tag}</Tag>))} </TagList>
                     </div>
-                    {/*<UtilityList>*/}
-                    {/*    <ExternalLinks href={visit}>Live</ExternalLinks>*/}
-                    {/*    <ExternalLinks href={source}>Source Code</ExternalLinks>*/}
-                    {/*</UtilityList>*/}
+
+                        <Hr/>
+                    <UtilityList>
+                        <ExternalLinks href={visit}>Live</ExternalLinks>
+                        <ExternalLinks href={source}>Source Code</ExternalLinks>
+                    </UtilityList>
                 </BlogCard>
             ))}
         </GridContainer>
