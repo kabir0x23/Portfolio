@@ -9,12 +9,16 @@ const Hero = () => (
         <LeftSection>
             <SectionTitle main center>
                 Welcome to <br/>
-                My Personal Portfolio
+                Personal Portfolio
             </SectionTitle>
             <SectionText>
-                I am Cyber Security Enthusiast, a Full Stack Web Developer and a Programmer
+                I am Cyber Security Enthusiast, Web Developer, Programmer.
+                Contributing to Open Source.
             </SectionText>
-            <Button onClick={() => window.location = 'https://linktree.com/kabir0x23'}>Learn More</Button>
+            <a target={"_blank"} href="https://linktree.com/kabir0x23">
+
+            <Button>Learn More</Button>
+            </a>
         </LeftSection>
     </Section>
 );
