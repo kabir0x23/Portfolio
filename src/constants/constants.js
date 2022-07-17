@@ -1,7 +1,7 @@
 export const webProjects = [
     {
         title: 'Thecyberhub',
-        description: "Thecyberhub is a community website of thecyberworld community.",
+        description: "Thecyberhub is the community website of thecyberworld community.",
         image: '/images/Projects/ThecyberhubOrg.png',
         tags: ['React'],
         source: 'https://github.com/kabir0x23/NewsFlash',
@@ -9,7 +9,7 @@ export const webProjects = [
         id: 0,
     }, {
         title: 'Cryptoverse',
-        description: "Crypto news, Cryptocurrencies, Coin details.",
+        description: "Cryptocurrencies | Details | News.",
         image: '/images/Projects/Cryptoverse.png',
         tags: ['React', 'API', 'Antd'],
         // source: 'https://github.com/kabir0x23/NewsFlash',
@@ -17,7 +17,7 @@ export const webProjects = [
         id: 1,
     }, {
         title: 'NewsFlash',
-        description: "NewsFlash is News Website, NewsFlash will going to provide News using api in future.",
+        description: "API based News Website.",
         image: '/images/Projects/NewsFlash.png',
         tags: ['Html', 'CSS', 'JavaScript'],
         source: 'https://github.com/kabir0x23/NewsFlash',
@@ -51,7 +51,6 @@ export const cyberProjects = [
 ]
 
 export const TimeLineData = [
-    {year: 2017, text: 'Started Diploma in Computer Science',},
     {
         year: 2020,
         text: <ul>
@@ -76,7 +75,6 @@ export const TimeLineData = [
                 <li>1. Started learning about MERN Stack, DevOps and AI</li>
                 <li>2. Built NewsFlash.</li>
                 <li>2. Built <a href={"https://www.linktree.com/cryptoverseweb3"}>CryptoverseWeb3</a>.</li>
-
             </ul>
     },
 ];
