@@ -121,6 +121,6 @@ export const TagList = styled.ul`
   
 `
 export const Tag = styled.li`
-  color: #d8bfbf;
+  color: #a4a4a4;
   font-size: 1.5rem;
 `
