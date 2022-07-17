@@ -16,7 +16,7 @@ const Home = () => {
             </Section>
             <Projects/>
             <Technologies/>
-            <Timeline/>
+            {/*<Timeline/>*/}
             <Accomplishments/>
         </Layout>
     );
