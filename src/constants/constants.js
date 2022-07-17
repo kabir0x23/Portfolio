@@ -40,22 +40,13 @@ export const web3Projects = [
 
 export const cyberProjects = [
     {
-        title: 'NewsFlash',
-        description: "NewsFlash is News Website, NewsFlash will going to provide News using api in future.",
-        image: '/images/ImgThecyberhub.org.png',
-        tags: ['Html', 'CSS', 'JavaScript'],
-        source: 'https://github.com/kabir0x23/NewsFlash',
-        visit: 'https://kabir0x23.github.io/NewsFlash/',
+        title: 'Port scanner ',
+        description: " A fast port scanner written in python with a focus on reliability and simplicity.",
+        image: '/images/Projects/img_1.png',
+        tags: ['Python'],
+        source: 'https://github.com/thecyberworld/port-scanner',
+        Download: 'https://github.com/thecyberworld/port-scanner',
         id: 0,
-    },
-    {
-        title: 'Cryptoverse',
-        description: "Crypto news, Cryptocurrencies, Coin details.",
-        image: '/images/cryptoverse.png',
-        tags: ['Html', 'CSS', 'JavaScript'],
-        source: 'https://github.com/kabir0x23/NewsFlash',
-        visit: 'https://kabir0x23.github.io/NewsFlash/',
-        id: 1,
     },
 ]
 

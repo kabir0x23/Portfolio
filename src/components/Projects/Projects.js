@@ -4,7 +4,7 @@ import {
     BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Hrx, Tag, TagList, TitleContent, UtilityList, Img
 } from './ProjectsStyles';
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
-// import {cyberProjects} from '../../constants/constants';
+import {cyberProjects} from '../../constants/constants';
 import {webProjects} from '../../constants/constants';
 // import {web3Projects} from '../../constants/constants';
 
@@ -38,7 +38,7 @@ const Projects = () => (
             ))}
         </GridContainer>
 
-        {/*<SectionDivider/>*/}
+        <SectionDivider/>
 
 
         {/*<SectionTitle main>Web3 Projects</SectionTitle>*/}
@@ -70,30 +70,29 @@ const Projects = () => (
 
         {/*<SectionDivider/>*/}
 
-        {/*<SectionTitle main>Cyber Projects</SectionTitle>*/}
-        {/*<GridContainer>*/}
-        {/*    {cyberProjects.map(({id, image, title, description, tags, source, visit}) => (*/}
-        {/*        <BlogCard key={id}>*/}
-        {/*            <Img src={prefix + image}/>*/}
-        {/*            <TitleContent>*/}
-        {/*                <HeaderThree title>{title}</HeaderThree>*/}
-        {/*                    /!*<Hr/>*!/*/}
-        {/*            </TitleContent>*/}
-        {/*            <CardInfo>{description}</CardInfo>*/}
-        {/*            <div>*/}
-        {/*                    <Hr/>*/}
+        <SectionTitle main>Cyber Projects</SectionTitle>
+        <GridContainer>
+            {cyberProjects.map(({id, image, title, description, tags, source, visit}) => (
+                <BlogCard key={id}>
+                    <Img src={prefix + image}/>
+                    <TitleContent>
+                        <HeaderThree title>{title}</HeaderThree>
+                    </TitleContent>
+                    <CardInfo>{description}</CardInfo>
+                    <div>
+                            <Hr/>
 
-        {/*                    /!*<TitleContent>Stack</TitleContent>*!/*/}
-        {/*                <TagList> {tags.map((tag, i) => (*/}
-        {/*                    <Tag key={i}>{tag}</Tag>))} </TagList>*/}
-        {/*            </div>*/}
-        {/*            /!*<UtilityList>*!/*/}
-        {/*            /!*    <ExternalLinks href={visit}>Live</ExternalLinks>*!/*/}
-        {/*            /!*    <ExternalLinks href={source}>Source Code</ExternalLinks>*!/*/}
-        {/*            /!*</UtilityList>*!/*/}
-        {/*        </BlogCard>*/}
-        {/*    ))}*/}
-        {/*</GridContainer>*/}
+                            {/*<TitleContent>Stack</TitleContent>*/}
+                        <TagList> {tags.map((tag, i) => (
+                            <Tag key={i}>{tag}</Tag>))} </TagList>
+                    </div>
+                    {/*<UtilityList>*/}
+                    {/*    <ExternalLinks href={visit}>Live</ExternalLinks>*/}
+                    {/*    <ExternalLinks href={source}>Source Code</ExternalLinks>*/}
+                    {/*</UtilityList>*/}
+                </BlogCard>
+            ))}
+        </GridContainer>
     </Section>
 );
 

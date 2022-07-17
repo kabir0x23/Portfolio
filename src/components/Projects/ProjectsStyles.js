@@ -39,8 +39,6 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-  
-
 `;
 
 
@@ -53,11 +51,11 @@ export const HeaderThree = styled.h3`
 `;
 
 export const Hr = styled.hr`
-  width: 150px;
-  height: 2px;
+  width: 75%;
+  height: 1.5px;
   margin: 10px auto;
   border: 0;
-  background: #ff8100;
+  background: #488bcd;
 `;
 
 export const Hrx = styled.hr`
@@ -123,6 +121,6 @@ export const TagList = styled.ul`
   
 `
 export const Tag = styled.li`
-  color: #d8bfbf;
+  color: #a4a4a4;
   font-size: 1.5rem;
 `
