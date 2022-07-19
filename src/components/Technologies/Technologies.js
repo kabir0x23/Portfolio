@@ -1,13 +1,12 @@
 import React from 'react';
 import {DiFirebase, DiReact, DiZend} from 'react-icons/di';
-// import { GiCyberEye } from 'react-icons/fa';
-import { GiCyberEye,GiLaptop } from 'react-icons/gi';
+import {GiCyberEye, GiLaptop} from 'react-icons/gi';
 import {Section, SectionDivider, SectionText, SectionTitle} from '../../styles/GlobalComponents';
 import {List, ListContainer, ListItem, ListParagraph, ListTitle} from './TechnologiesStyles';
 
 const Technologies = () => (
     <Section id="tech">
-        <SectionDivider divider />
+        <SectionDivider divider/>
 
         <SectionTitle>Technologies</SectionTitle>
         <SectionText>
@@ -20,7 +19,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Cyber Security</ListTitle>
                     <ListParagraph>
-                        Experience with <br />
+                        Experience with <br/>
                         WebApp, Network, API Pentesting.
                     </ListParagraph>
                 </ListContainer>
@@ -30,7 +29,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Front-end</ListTitle>
                     <ListParagraph>
-                        Experience with <br />
+                        Experience with <br/>
                         React.js
                     </ListParagraph>
                 </ListContainer>
@@ -40,7 +39,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Back-end</ListTitle>
                     <ListParagraph>
-                        Experience with <br />
+                        Experience with <br/>
                         Node.js and Databases
                     </ListParagraph>
                 </ListContainer>
