@@ -40,7 +40,7 @@ const Projects = () => (
                         <TagList> {tags.map((tag, i) => (
                             <Tag key={i}>{tag}</Tag>))}
                         </TagList>
-                            <Hr/>
+                        <Hr/>
                     </div>
                     <UtilityList>
                         <ExternalLinks href={visit}>Live</ExternalLinks>
@@ -49,8 +49,10 @@ const Projects = () => (
                 </BlogCard>
             ))}
         </GridContainer>
-
-        <SectionDivider/>
+        <div>
+            <br/>
+            <br/>
+        </div>
 
 
         {/*<SectionTitle main>Web3 Projects</SectionTitle>*/}
@@ -98,7 +100,7 @@ const Projects = () => (
                             <Tag key={i}>{tag}</Tag>))} </TagList>
                     </div>
 
-                        <Hr/>
+                    <Hr/>
                     <UtilityList>
                         <ExternalLinks href={visit}>Live</ExternalLinks>
                         <ExternalLinks href={source}>Source Code</ExternalLinks>
