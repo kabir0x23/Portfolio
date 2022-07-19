@@ -49,7 +49,7 @@ export const StackContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 1.2px;
-  color: #1fa6c8;
+  color: #ff8100;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 
@@ -64,10 +64,10 @@ export const HeaderThree = styled.h3`
 
 export const Hr = styled.hr`
   width: 75%;
-  height: 1.5px;
+  height: 1px;
   margin: 10px auto;
   border: 0;
-  background: #343434;
+  background: #ff8100;
 `;
 
 export const Hrx = styled.hr`
@@ -151,8 +151,8 @@ export const TagList = styled.ul`
 
   border-width: 1px;
   border-style: solid;
-  //border-color: #343434;
-  border-color: #d76e00;
+  border-color: #343434;
+  //border-color: #1fa6c8;
   white-space: nowrap;
   font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
   outline: none;
