@@ -49,7 +49,7 @@ export const StackContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 1.2px;
-  color: #ff8100;
+  color: #6f74d2;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 
