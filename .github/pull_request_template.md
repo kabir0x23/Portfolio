@@ -39,7 +39,5 @@ Correct ways to mark a box:
 ---
 
 If you would like to continue contributing to open source and would like to do it with an awesome inclusive community.
-You should join our [Discord](https://discord.gg/WhDry9FWE7) chat. 
-We help and encourage each other to contribute to open source little and often 😄.
 Feel free to check out other cool **open-source** repositories and communities:
-[Kabir0x23](https://github.com/kabir0x23) •  [Cryptoverse Web3](https://github.com/CryptoverseWeb3) • [Thecyberworld](https://github.com/thecyberworld)
+[Kabir0x23](https://github.com/kabir0x23) • [Cryptoverse Web3](https://github.com/CryptoverseWeb3) • [Thecyberworld](https://github.com/thecyberworld)
