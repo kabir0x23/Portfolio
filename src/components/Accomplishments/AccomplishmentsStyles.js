@@ -25,24 +25,23 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #1c1c1c;
   border-radius: 12px;
-  height: 144px;
+  //height: 144px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
-
+    //height: 210px;
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    //height: 135px;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    //height: 110px;
     padding: 12px;
 
-    &:nth-child(2n) {
-      grid-row: 2;
+    &:nth-child(3n) {
+      grid-row: 3;
     }
   }
 `
@@ -79,7 +78,7 @@ export const BoxText = styled.p`
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
   }
 `
